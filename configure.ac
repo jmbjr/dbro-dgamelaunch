@@ -160,7 +160,7 @@ if test "$enable_shmem" = yes; then
    LIBS="$LIBS -lrt"
    # or -pthread?
 fi
-
+LIBS="$LIBS -lpthread"
 
 AC_ARG_WITH(config-file,
 [AC_HELP_STRING([--with-config-file=PATH], [Define the path to the default configuration file.])],
