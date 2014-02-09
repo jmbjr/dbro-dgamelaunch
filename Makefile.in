@@ -1,4 +1,4 @@
-NAME = @PACKAGE_NAME@
+NAME = @PACKAGE_NAME@-dev
 VERSION = @PACKAGE_VERSION@
 
 exclusions = CVS .svn .cvsignore tags autogen.sh svn-commit.tmp .\#*

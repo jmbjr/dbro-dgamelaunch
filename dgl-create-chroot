@@ -124,8 +124,8 @@ cd ..
 
 
 cd etc
-cp "$CURDIR/examples/dgamelaunch.conf" .
-echo "Edit $CHROOT/etc/dgamelaunch.conf to suit your needs."
+cp "$CURDIR/examples/dgamelaunch-dev.conf" .
+echo "Edit $CHROOT/etc/dgamelaunch-dev.conf to suit your needs."
 [ -f /etc/localtime ] && cp /etc/localtime .
 cd ..
 
